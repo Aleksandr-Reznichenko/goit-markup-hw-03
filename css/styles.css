@@ -97,13 +97,13 @@ button {
 /* ========== Header ========== */
 
 .header {
-  padding: 24px 0 24px;
   border-bottom: 1px solid var(--border-color);
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
@@ -132,6 +132,9 @@ button {
 }
 
 .nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--secondary-text-color);
   font-weight: 500;
 }
