@@ -78,7 +78,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .container {
@@ -102,7 +101,6 @@ button {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -145,6 +143,7 @@ button {
 }
 
 .contact {
+  margin-left: auto;
   font-style: normal;
 }
 
@@ -261,11 +260,9 @@ button {
 }
 
 .team-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  text-align: center;
 }
 
 .team-text {
